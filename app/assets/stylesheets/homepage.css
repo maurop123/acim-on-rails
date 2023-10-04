@@ -10,21 +10,20 @@ div {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 4.5rem;
 }
 
 .call-to-action-btn {
   height: 100px;
   width: 170px;
-  margin-bottom: 60px;
   background-color: #170a3d;
   border-color: #dfa013;
   color: #dfa013;
-  font-size: 28px;
+  font-size: 3.1rem;
   font-family: inherit;
 }
 
 .disclaimer-text {
-  font-size: 10px;
+  font-size: 1rem;
   text-align: left;
 }

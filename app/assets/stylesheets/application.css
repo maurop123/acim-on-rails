@@ -15,8 +15,31 @@
  */
 
  html {
+   height: 100%;
    background: #170a3d;
    color: #dfa013;
    font-family: "Playfair Display";
-   height: 100%;
+ }
+
+ @media screen and (min-width: 800px) {
+   html {
+     font-size: 14px;
+   }
+ }
+ @media screen and (max-width: 799px) {
+   html {
+     font-size: 12px;
+   }
+ }
+ 
+ @media screen and (max-width: 599px) {
+   html {
+     font-size: 10px;
+   }
+ }
+ 
+ @media screen and (max-width: 299px) {
+   html {
+     font-size: 8px;
+   }
  }
