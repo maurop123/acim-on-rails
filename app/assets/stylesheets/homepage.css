@@ -1,11 +1,16 @@
 body {
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  justify-content: space-around;
   height: 100%;
 }
 
-.center {
+div {
   text-align: center;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 .call-to-action-btn {
@@ -21,4 +26,5 @@ body {
 
 .disclaimer-text {
   font-size: 10px;
+  text-align: left;
 }
