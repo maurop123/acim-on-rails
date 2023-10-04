@@ -15,6 +15,12 @@
  */
 
  html {
-   background-color: #170a3d;
+   background: #170a3d;
    color: #dfa013;
+   font-family: "Playfair Display";
+   height: 100%;
+ }
+
+ div {
+   width: 100%;
  }
