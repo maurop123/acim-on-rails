@@ -37,4 +37,5 @@ h1 {
 .disclaimer-text {
   font-size: 1rem;
   text-align: left;
+  padding: 0px 12px;
 }
