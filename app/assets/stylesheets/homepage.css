@@ -13,15 +13,26 @@ h1 {
   font-size: 4.5rem;
 }
 
-button {
+.cta {
+  display: inline-block;
   height: 100px;
   width: 170px;
   background-color: #170a3d;
-  border-color: #dfa013;
+  border: 2px solid #dfa013;
   color: #dfa013;
+  text-align: center;
+  line-height: 100px;
+  text-decoration: none;
   font-size: 3.1rem;
   font-family: inherit;
+  cursor: pointer;
 }
+
+.cta:hover {
+  background-color: #dfa013;
+  color: #170a3d;
+}
+
 
 .disclaimer-text {
   font-size: 1rem;
