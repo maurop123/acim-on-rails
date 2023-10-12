@@ -6,10 +6,10 @@ class HomepageController < ApplicationController
     video4_time = 60*60*8 + 60*45 + 16
 
 
-    video1_link = "https://www.youtube.com/watch?v=5hWJN4J-nyI"
-    video2_link = "https://www.youtube.com/watch?v=hke9xRWiVZw"
-    video3_link = "https://www.youtube.com/watch?v=GBrh2bXrwZg"
-    video4_link = "https://www.youtube.com/watch?v=16TlrcW3eGI"
+    video1_link = "https://www.youtube.com/embed/5hWJN4J-nyI"
+    video2_link = "https://www.youtube.com/embed/hke9xRWiVZw"
+    video3_link = "https://www.youtube.com/embed/GBrh2bXrwZg"
+    video4_link = "https://www.youtube.com/embed/16TlrcW3eGI"
 
 
     collection = [ [video1_link, video1_time], [video2_link, video2_time], [video3_link, video3_time], [video4_link, video4_time] ] 
